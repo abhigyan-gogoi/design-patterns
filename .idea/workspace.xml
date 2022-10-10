@@ -4,14 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Breaking SRP">
+    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Breaking LSR">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ocp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Srp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Srp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -36,7 +45,46 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Lsp">
+    <configuration name="Lsp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Lsp" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ocp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ocp" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Ocp" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Srp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Srp" />
       <module name="design-patterns" />
@@ -52,6 +100,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lsp" />
+        <item itemvalue="Application.Ocp (1)" />
+        <item itemvalue="Application.Ocp" />
         <item itemvalue="Application.Srp" />
       </list>
     </recent_temporary>
@@ -79,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665382979635</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Preserving SRP">
+      <created>1665383658564</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665383658564</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -96,6 +154,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Breaking SRP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breaking SRP" />
+    <MESSAGE value="Preserving SRP" />
+    <MESSAGE value="Breaking OCP" />
+    <MESSAGE value="Preserving OCP using Specification Dessign Patterns" />
+    <MESSAGE value="Combinator example for Specification" />
+    <MESSAGE value="Breaking LSR" />
+    <option name="LAST_COMMIT_MESSAGE" value="Breaking LSR" />
   </component>
 </project>
