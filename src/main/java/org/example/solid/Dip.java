@@ -1,4 +1,4 @@
-package org.example;
+package org.example.solid;
 
 // DIP - Dependency Inversion Principle
 // Not directly connected to the idea of Dependency Injection

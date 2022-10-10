@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Breaking DIP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Dip.java" afterDir="false" />
+    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Preserving DIP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Dip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Isp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Isp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Lsp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ocp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Ocp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Srp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Srp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +48,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Dip">
+  <component name="RunManager" selected="Application.builder">
     <configuration name="Dip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Dip" />
+      <option name="MAIN_CLASS_NAME" value="org.example.solid.Dip" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.solid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,24 +63,11 @@
       </method>
     </configuration>
     <configuration name="Lsp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lsp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.solid.Lsp" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ocp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ocp" />
-      <module name="design-patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.solid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,11 +76,11 @@
       </method>
     </configuration>
     <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Ocp" />
+      <option name="MAIN_CLASS_NAME" value="org.example.solid.Ocp" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.solid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +88,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Srp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Srp" />
+    <configuration name="Ocp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.solid.Ocp" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.solid.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="builder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.gamma.builder" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.gamma.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.builder" />
         <item itemvalue="Application.Dip" />
         <item itemvalue="Application.Lsp" />
         <item itemvalue="Application.Ocp (1)" />
         <item itemvalue="Application.Ocp" />
-        <item itemvalue="Application.Srp" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665392348286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Preserving DIP">
+      <created>1665395942401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665395942401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +208,7 @@
     <MESSAGE value="Breaking ISP" />
     <MESSAGE value="Preserving ISP" />
     <MESSAGE value="Breaking DIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breaking DIP" />
+    <MESSAGE value="Preserving DIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preserving DIP" />
   </component>
 </project>

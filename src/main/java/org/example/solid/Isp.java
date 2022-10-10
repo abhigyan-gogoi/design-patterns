@@ -1,4 +1,4 @@
-package org.example;
+package org.example.solid;
 
 // ISP - Interface Segregation Principle
 // Recommendation on how to split interfaces into smaller interfaces

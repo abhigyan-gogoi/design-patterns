@@ -1,4 +1,4 @@
-package org.example;
+package org.example.solid;
 
 // LSP - Liskov Substitution Principle
 // Ability to substitute a subclass for a base class
