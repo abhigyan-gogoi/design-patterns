@@ -1,19 +1,27 @@
 package org.example;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.List;
 
 // SRP - Single Responsibility Principle
+// Allows for easier refactoring, management, and understandability
 public class Srp
 {
     public static void main( String[] args ) throws Exception{
-        System.out.println( "Hello World!" );
+        System.out.println( "SRP - Example" );
         Journal j = new Journal();
         j.addEntry("1st entry");
         j.addEntry("Depression text. Lorem Ipsum");
         System.out.println(j);
+
+        Persistence p = new Persistence();
+        String fileName = "c:\\temp\\journal.txt";
+        p.saveToFile(j, fileName, true);
+
+        Runtime.getRuntime().exec("notepad.exe " + fileName);
     }
 }
 
@@ -43,11 +51,26 @@ class Journal {
     public void save(String fileName) throws FileNotFoundException {
         try (PrintStream out = new PrintStream(fileName)){
             out.println(toString());
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         }
     }
     public void load (String fileName) {
         // Logic here
+    }
+}
+
+// Preserving SRP
+// Separating persistence handlers to its own class
+class Persistence {
+    public void saveToFile (Journal journal, String fileName, Boolean overwrite) throws FileNotFoundException {
+        if (overwrite || new File(fileName).exists()) {
+            try (PrintStream out = new PrintStream(fileName)){
+                out.println(journal.toString());
+            }
+        }
+    }
+
+    public Journal load(String fileName) {
+        // Logic here
+        return null;
     }
 }
