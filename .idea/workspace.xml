@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Breaking LSR">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lsp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Ocp.java" afterDir="false" />
+    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Preserving LSP">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Isp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665383658564</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Preserving LSP">
+      <created>1665391184369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665391184369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,6 +164,7 @@
     <MESSAGE value="Preserving OCP using Specification Dessign Patterns" />
     <MESSAGE value="Combinator example for Specification" />
     <MESSAGE value="Breaking LSR" />
-    <option name="LAST_COMMIT_MESSAGE" value="Breaking LSR" />
+    <MESSAGE value="Preserving LSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preserving LSP" />
   </component>
 </project>
