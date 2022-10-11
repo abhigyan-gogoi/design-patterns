@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Preserving DIP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" afterDir="false" />
+    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Using built-in java builder">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Dip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Dip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Isp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Isp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Lsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Lsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ocp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Ocp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Srp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/solid/Srp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +37,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.builder">
     <configuration name="Dip" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.solid.Dip" />
@@ -119,7 +114,6 @@
         <item itemvalue="Application.builder" />
         <item itemvalue="Application.Dip" />
         <item itemvalue="Application.Lsp" />
-        <item itemvalue="Application.Ocp (1)" />
         <item itemvalue="Application.Ocp" />
       </list>
     </recent_temporary>
@@ -182,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665395942401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Using built-in java builder">
+      <created>1665397593924</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665397593924</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +210,7 @@
     <MESSAGE value="Preserving ISP" />
     <MESSAGE value="Breaking DIP" />
     <MESSAGE value="Preserving DIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preserving DIP" />
+    <MESSAGE value="Using built-in java builder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using built-in java builder" />
   </component>
 </project>
