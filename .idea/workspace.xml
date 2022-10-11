@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Using built-in java builder">
+    <list default="true" id="5bbd58e5-da4c-4d14-945b-fd584c94f97f" name="Changes" comment="Using Custom String Builder class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/gamma/builder.java" afterDir="false" />
     </list>
@@ -183,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665397593924</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Using Custom String Builder class">
+      <created>1665468759410</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665468759410</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +218,7 @@
     <MESSAGE value="Breaking DIP" />
     <MESSAGE value="Preserving DIP" />
     <MESSAGE value="Using built-in java builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Using built-in java builder" />
+    <MESSAGE value="Using Custom String Builder class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Using Custom String Builder class" />
   </component>
 </project>

@@ -49,9 +49,12 @@ class HtmlBuilder {
         root.name = rootName;
     }
 
-    public void addChild(String childName, String childText) {
+    // Changing Custom Builder into a fluent interface
+    // Change return type void to the same type (HtmlBuilder)
+    public HtmlBuilder addChild(String childName, String childText) {
         HtmlElement e = new HtmlElement(childName, childText);
         root.elements.add(e);
+        return this;
     }
 
     public void clear() {
@@ -92,6 +95,23 @@ public class builder {
         builder.addChild("li", "Hello");
         builder.addChild("li", "World");
         System.out.println(builder);
+        System.out.println("---------------------------------------------");
+
+        // Fluent  interface
+        System.out.println("FLUENT INTERFACE EXAMPLE");
+        StringBuilder s = new StringBuilder();
+        s.append("foo") // Return type is a string builder
+                .append("bar"); // We can chain StringBuilder methods
+        System.out.println(s);
+        System.out.println("---------------------------------------------");
+
+        // Fluent  interface Custom builder
+        System.out.println("HTML BUILDER FLUENT EXAMPLE");
+        HtmlBuilder b = new HtmlBuilder("ul");
+        // We can chain methods
+        b.addChild("li", "Hello")
+                .addChild("li", "World");
+        System.out.println(b);
         System.out.println("---------------------------------------------");
     }
 }
